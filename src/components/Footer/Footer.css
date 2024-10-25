@@ -1,0 +1,8 @@
+.footer-col a {
+    display: flex;
+}
+.footer-col a img {
+    width: 18px;
+    height: 18px;
+    object-fit: contain;
+}

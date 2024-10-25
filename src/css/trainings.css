@@ -1,0 +1,34 @@
+.course-grid-item h6{
+    margin-bottom: 10px;
+}
+.course-grid-item:nth-child(3) h6{
+    margin-bottom: -8px;
+}
+.course-grid-item .generic-btn-1 {
+    padding: 12px 30px;
+}
+.course-grid-item:hover .generic-btn-1 {
+    background-color: white;
+    color: var(--blue);
+}
+.top-selling {
+    position: relative;
+}
+.top-selling::after{
+    position: absolute;
+    content: 'Top Selling';
+    top: 15px;
+    left: 15px;
+    background-color: rgb(215, 169 , 67);
+    padding: 5px 8px;
+    border-radius: 5px;
+    color: white;
+    font-size: 14px;
+
+}
+@media ( max-width : 768px ) {
+    
+    .courses-showcase {
+        padding-top: 120px !important;                                                                  
+    }
+}

@@ -1,0 +1,124 @@
+.trainings-page .choose-us {
+    background-image: none !important;
+    background-color: var(--bg-light);
+}
+.trainings-page .choose-us .container .row {
+    flex-direction: row;
+}
+
+.trainings-page .choose-us .choose-us-feature-list{
+    margin-top: 40px;
+    grid-template-columns: repeat(4,1fr);
+    padding-right: 0;
+}
+
+.trainings-page .choose-us .container .row .col-xl-6 .choose-us-content .choose-us-highlights {
+    padding-left: 50px;
+}
+.trainings-page .choose-us .container .row .col-xl-6 .choose-us-content .choose-us-highlights:first-child{
+    margin-top: 90px !important;
+}
+.course-grid-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+.course-grid-item div h6{
+    margin: 16px 0;
+}
+.course-grid-item .generic-btn-1 {
+    padding: 12px 30px;
+}
+.course-grid-item:hover .generic-btn-1 {
+    background-color: white;
+    color: var(--blue);
+}
+.top-selling {
+    position: relative;
+}
+.top-selling::after{
+    position: absolute;
+    content: 'Top Selling';
+    top: 15px;
+    left: 15px;
+    background-color: rgb(215, 169 , 67);
+    padding: 5px 8px;
+    border-radius: 5px;
+    color: white;
+    font-size: 14px;
+
+}
+
+.trainings-page .success-stories {
+    background-color: var(--bg-light);
+}
+.trainings-page .success-stories .container .section-heading h6 {
+    color: var(--blue) !important; 
+}
+.trainings-page .success-stories .container .section-heading h1 {
+    color: var(--purple) !important; 
+}
+@media ( min-width : 992px ) and ( max-width : 1199.8px ) {
+    .trainings-page .choose-us .container .row .col-xl-6 .choose-us-content .choose-us-highlights {
+        padding-left: 0px;
+    }
+    .trainings-page .choose-us .container .row .col-xl-6 .choose-us-content .choose-us-highlights:first-child{
+        margin-top: 00px !important;
+    }
+}
+
+@media ( min-width : 768px ) and ( max-width : 991.8px ) {
+    .trainings-page .choose-us .choose-us-feature-list{
+        grid-template-columns: repeat(2,1fr);
+        margin-top: 60px;
+    }
+    .trainings-page .choose-us .container .row .col-xl-6 .choose-us-content .choose-us-highlights {
+        padding-left: 0px;
+    }
+    .trainings-page .choose-us .container .row .col-xl-6 .choose-us-content .choose-us-highlights:first-child{
+        margin-top: 00px !important;
+    }
+}
+
+@media ( min-width : 576px ) and ( max-width : 767.8px ) {
+    .trainings-page .choose-us .choose-us-feature-list{
+        margin-top: 50px;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .trainings-page .choose-us .container .row .col-xl-6 .choose-us-content  {
+        padding-left: 0px;
+    }
+    .trainings-page .choose-us .container .row .col-xl-6 .choose-us-content .choose-us-highlights:first-child{
+        margin-top: 00px !important;
+    }
+}
+
+@media  ( max-width : 575.8px ) {
+    .trainings-page .choose-us {
+        padding-top: 120px;
+    }
+    .trainings-page .choose-us .choose-us-feature-list{
+        grid-template-columns: 1fr ;
+        margin-top: 30px;
+    }
+    .trainings-page .choose-us .container .row .col-xl-6 .choose-us-content .choose-us-highlights {
+        padding-left: 0px;
+        gap: 5px !important;
+        justify-content: start;
+    }
+    .trainings-page .choose-us .container .row .col-xl-6 .choose-us-content .choose-us-highlights h5 {
+        font-size: 15px;
+    }
+    .trainings-page .choose-us .container .row .col-xl-6 .choose-us-content .choose-us-highlights:first-child{
+        margin-top: 00px !important;
+    }
+}
+
+@media ( max-width : 768px ) {
+    
+    .courses-showcase {
+        padding-top: 120px !important;                                                                  
+    }
+}

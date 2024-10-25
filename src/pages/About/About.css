@@ -1,0 +1,380 @@
+.about-us-page .about-us {
+    background-image: none;
+}
+
+
+.flip-card {
+    background-color: transparent;
+    min-height: 250px;
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+    border-radius: 5px;
+    background-color: transparent;
+    position: relative;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.5s;
+    transform-style: preserve-3d;
+  }
+  
+  /* Do an horizontal flip when you move the mouse over the flip box container */
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  /* Position the front and back side */
+  .flip-card-front, .flip-card-back {
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    top: 0%;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+  }
+  
+  /* Style the front side (fallback if image is missing) */
+  .flip-card-front {
+    background-color: var(--bg-gray);
+    color: black;
+  }
+  
+  /* Style the back side */
+  .flip-card-back {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-inline: 22px;
+    background-color: var(--blue);
+    color: white;
+    font-weight: 500;
+    transform: rotateY(180deg);
+  }
+  .flip-card-back p {
+    margin-bottom: 0;
+  }
+.offer {
+    overflow: hidden;
+}
+.offer-card-grid {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 30px;
+    position: relative;
+}
+.offer-card-grid::after {
+    position: absolute;
+    content: '';
+    top: -50px;
+    right: -50px;
+    height: 60px;
+    width: 60px;
+    background-image: url(../../../public/images/shape-02-03.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.offer-card-grid .offer-card {
+    background-color: var(--bg-gray);
+    padding: 50px 22px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.flip-card-front h5 {
+    color: var(--purple);
+    font-weight: bold;
+    margin: 24px 0 0px 0;
+}
+.offer-card-img-wrapper {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.vision {
+    /* background-image: url(../images/home-two-banner1.jpg); */
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+.vision-image-grid-parent {
+    background-color: var(--purple);
+    padding-block: 20px ;
+}
+.vision-image-grid {
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+    position: relative;
+}
+.vision-image-grid img {
+    border-radius: 5px;
+}
+.vision-image-grid img:is( :nth-child(2) , :nth-child(4) )
+{
+    height: 400px ;
+    object-fit: cover;
+}
+.vision-inner {
+    position: relative;
+}
+.vision-shape-1 {
+    position: absolute;
+    top: 10%;
+    left: -50px;
+    transform: translateY(-50%);
+}
+.vision-shape-2 {
+    position: absolute;
+    top: 0%;
+    right: -30px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: rgba(251,124,86,.6);
+}
+.vision-statement-parent {
+
+}
+.vision-statement-parent .row .col-xl-6 {
+    padding: 0 30px;
+}
+.vision-statement-parent p {
+    text-align: justify;
+}
+.vision-statement-parent .row div h1  {
+    margin-bottom: 30px;
+}
+
+.founder-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.founder-card h5 {
+    margin: 10px 0;
+}
+.founder-card:hover .founder-img-wrapper  {
+    border: 8px  var(--bg-light) solid;
+}
+.founder-img-wrapper{
+    border: 8px var(--blue) solid;
+    width: 230px;
+    height: 230px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 400ms ease;
+}
+.founder-img-inner {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 6px  white solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.founder-img-inner  img {
+    width: 100% ;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+/* .founder-card-wrapper > div:last-child {
+
+    width: 100% !important;
+} */
+
+.social-wrapper {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: white;
+    border: 1px solid rgb(222, 221, 221);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media ( min-width : 992px ) and ( max-width : 1199.8px ){
+
+    .offer-card-grid{
+        grid-template-columns: 1fr 1fr;
+    }
+    .vision-shape-1 img{
+        width: 60px;
+       
+    }
+    .vision-shape-1 {
+        top: 0;
+        left: 40px;
+    }
+    .vision-statement-parent .row > div:last-child{
+        margin-top: 40px;
+    }
+}
+
+@media ( min-width : 768px ) and ( max-width : 991.8px ){
+    .about-us {
+        padding-top: 130px !important;
+    }
+    .about-us-img-wrapper {
+        margin-top: 40px;
+    }
+    .vision-image-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+    .vision-image-grid img:is( :nth-child(1) , :nth-child(3) )
+    {
+        display: none;
+    }
+
+    .offer-card-grid{
+        grid-template-columns: 1fr 1fr;
+    }
+    .offer-card-grid .offer-card {
+        padding: 34px 40px;
+    }
+    .offer-card-grid::after{
+        width: 40px;
+        right: -35px;
+    }
+    .vision-image-grid {
+        gap: 14px;
+    }
+    .vision-shape-1 img{
+        width: 60px;
+       
+    }
+    .vision-shape-1 {
+        top: 0;
+        left: 40px;
+    }
+
+}
+
+@media ( min-width : 576px ) and ( max-width : 767.8px ){
+    .about-us-img-wrapper {
+        margin-top: 40px;
+    }
+    .about-us {
+        padding-top: 120px !important;
+    }
+
+    .offer-card-grid{
+        grid-template-columns: 1fr ;
+    }
+    .offer-card-grid .offer-card {
+        padding: 34px 40px;
+    }
+    .offer-card-grid::after{
+        width: 40px;
+        right: -35px;
+    }
+    .vision-image-grid {
+        grid-template-columns: 1fr 1fr;
+        gap: 14px;
+        margin-bottom: 50px;
+    }
+    
+    .vision-image-grid img:nth-child(2n+1) {
+        display: none;
+    }
+    .vision-shape-1 {
+        display: none;
+    }
+
+    .vision-statement-parent .row > div:last-child{
+        margin-top: 40px;
+    }
+    .founder-card-wrapper .founder-card:nth-child(2)
+    {
+        margin-top: 50px;
+    }
+}
+
+@media  ( max-width : 575.8px ) {
+
+    .about-us-img-wrapper {
+        margin-top: 40px;
+    }
+    .about-us {
+        padding-top: 120px !important;
+    }
+    .choose-us-content{
+        margin-bottom: 30px;
+    }
+    .about-us-page .choose-us .choose-us-feature-list{
+        grid-template-columns: 1fr ;
+        margin-top: 30px;
+    }
+    .about-us-page .choose-us .container .row .col-xl-6 .choose-us-content .choose-us-highlights {
+        padding-left: 0px;
+        gap: 5px !important;
+        justify-content: start;
+    }
+    .about-us-page .choose-us .container .row .col-xl-6 .choose-us-content .choose-us-highlights h5 {
+        font-size: 15px;
+    }
+    .about-us-page .choose-us .container .row .col-xl-6 .choose-us-content .choose-us-highlights:first-child{
+        margin-top: 00px !important;
+    }
+
+    .offer-card-grid{
+        grid-template-columns: 1fr ;
+        
+    }
+    .offer-card-grid::after{
+        display: none;   
+    }
+    .offer-card-grid .offer-card {
+        padding: 34px 40px;
+    }
+    .offer-card-grid::after{
+        width: 40px;
+        right: -35px;
+    }
+    .vision-image-grid {
+        grid-template-columns: 1fr;
+        gap: 14px;
+        margin-bottom: 50px;
+    }
+    
+    .vision-image-grid img:is( :nth-child(1) , :nth-child(3) , :nth-child(2) )
+    {
+        display: none;
+    }
+    .vision-shape-1 {
+        display: none;
+    }
+
+    .vision-statement-parent .row > div:last-child{
+        margin-top: 40px;
+    }
+    .founder-card-wrapper .founder-card:nth-child(2)
+    {
+        margin-top: 50px;
+    }
+}

@@ -1,0 +1,90 @@
+.carousel-control-prev , .carousel-control-next {
+    display: none;
+}
+
+.choose-us {
+    background-image: none !important;
+    background-color: var(--bg-light);
+}
+.choose-us .container .row {
+    flex-direction: row;
+}
+
+.choose-us .choose-us-feature-list{
+    margin-top: 40px;
+    grid-template-columns: repeat(4,1fr);
+    padding-right: 0;
+}
+
+.choose-us .container .row .col-xl-6 .choose-us-content .choose-us-highlights {
+    padding-left: 50px;
+}
+.choose-us .container .row .col-xl-6 .choose-us-content .choose-us-highlights:first-child{
+    margin-top: 90px !important;
+}
+
+@media ( min-width : 992px ) and ( max-width : 1199.8px ) {
+      .choose-us .container .row .col-xl-6 .choose-us-content .choose-us-highlights {
+        padding-left: 0px;
+    }
+      .choose-us .container .row .col-xl-6 .choose-us-content .choose-us-highlights:first-child{
+        margin-top: 00px !important;
+    }
+}
+
+@media ( min-width : 768px ) and ( max-width : 991.8px ) {
+      .choose-us .choose-us-feature-list{
+        grid-template-columns: repeat(2,1fr);
+        margin-top: 60px;
+    }
+      .choose-us .container .row .col-xl-6 .choose-us-content .choose-us-highlights {
+        padding-left: 0px;
+    }
+      .choose-us .container .row .col-xl-6 .choose-us-content .choose-us-highlights:first-child{
+        margin-top: 00px !important;
+    }
+    .sports-card {
+      grid-column: 1/3;
+    }
+}
+
+@media ( min-width : 576px ) and ( max-width : 767.8px ) {
+      .choose-us .choose-us-feature-list{
+        margin-top: 50px;
+        grid-template-columns: repeat(2,1fr);
+    }
+      .choose-us .container .row .col-xl-6 .choose-us-content  {
+        padding-left: 0px;
+    }
+      .choose-us .container .row .col-xl-6 .choose-us-content .choose-us-highlights:first-child{
+        margin-top: 00px !important;
+    }
+}
+
+@media  ( max-width : 575.8px ) {
+      .choose-us {
+        padding-top: 120px;
+    }
+      .choose-us .choose-us-feature-list{
+        grid-template-columns: 1fr ;
+        margin-top: 30px;
+    }
+      .choose-us .container .row .col-xl-6 .choose-us-content .choose-us-highlights {
+        padding-left: 0px;
+        gap: 5px !important;
+        justify-content: start;
+    }
+      .choose-us .container .row .col-xl-6 .choose-us-content .choose-us-highlights h5 {
+        font-size: 15px;
+    }
+      .choose-us .container .row .col-xl-6 .choose-us-content .choose-us-highlights:first-child{
+        margin-top: 00px !important;
+    }
+}
+
+@media ( max-width : 768px ) {
+    
+    .courses-showcase {
+        padding-top: 120px !important;                                                                  
+    }
+}

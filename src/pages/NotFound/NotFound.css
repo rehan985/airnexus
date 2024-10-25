@@ -1,0 +1,17 @@
+.not-found-page{
+    background-color: var(--blue);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+.not-found-page h2 {
+    margin-bottom: 30px;
+}
+.not-found-page > a {
+    color: white !important;
+    text-decoration: underline !important;
+    font-size: 20px;
+}

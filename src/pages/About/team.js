@@ -1,0 +1,12 @@
+export const data = [
+    {name:"Syed Aoun Shah",role:"President",instagram:"https://www.instagram.com/aounshahnaqvii",facebook:"https://www.facebook.com/aounshahnaqvii",linkedin:"https://www.linkedin.com/in/aounshahnaqvi/",imgSrc:"././images/auon.jpg"},
+    {name:"Shafaq Noor",role:"Vice President",instagram:"https://www.instagram.com/shafaqimsal/",facebook:"",linkedin:"",imgSrc:"././images/shafaq.jpg"},
+    {name:"Syed Zain Ul Hassan",role:"Joint Secretary (Engineering)",instagram:"https://www.instagram.com/zain.jafferi05",facebook:"https://www.facebook.com/profile.php?id=100011109760079",linkedin:"https://www.linkedin.com/in/zain-hassan-syed-111aab201",imgSrc:"././images/syed-zain.jpg"},
+    {name:"Sheharyar",role:"Director of Marketing",instagram:"",facebook:"",linkedin:"",imgSrc:"././images/sheharyar.jpg"},
+    {name:"Rehan Akhtar",role:"Joint Secretary (Computing Competitions)",instagram:"",facebook:"",linkedin:"https://www.linkedin.com/in/rehanakhtar985",imgSrc:"././images/rehan_akhtar.jpg"},
+    {name:"Mohsin Malik",role:"Joint Secretary (E-Gaming Competitions)",instagram:"https://www.instagram.com/mohsinmaliikk/",facebook:"https://www.facebook.com/profile.php?id=100006781005253",linkedin:"https://www.linkedin.com/in/mohsin-malik-1862211ba/",imgSrc:"././images/mohsinmalik.jpg"},
+    {name:"Jibran Ali",role:"Joint Secretary (Management)",instagram:"https://www.instagram.com/jibi_3684",facebook:"https://www.facebook.com/jibran.ali.94651774",linkedin:"https://www.linkedin.com/in/jibran-ali-783425249/",imgSrc:"././images/JibranAliGeneralSecretary.jpg"},
+    {name:"Intekhab Alam",role:"Joint Secretary (Cultural and other Events)",instagram:"https://www.instagram.com/intekhab__174/?hl=en",facebook:"",linkedin:"",imgSrc:"././images/IMG_5943.JPG"},
+    {name:"Sohaib Fayyaz",role:"Joint Secretary (Management and Applied sciences)",instagram:"https://www.instagram.com/sohaibfayyaz.09",facebook:"https://www.facebook.com/profile.php?id=100009708644605&mibextid=ZbWKwL",linkedin:"https://www.linkedin.com/in/muhammad-sohaib-fayyaz-6aabba264/",imgSrc:"././images/sohaib.jpg"},
+    {name:"Abdul Wassay",role:"Joint Secretary (Social sciences, creative & sports)",instagram:"https://www.instagram.com/was_say23",facebook:"https://www.facebook.com/wassay.abbasi.90",linkedin:"https://www.linkedin.com/in/abdul-wassay-930528294/",imgSrc:"././images/wasay.jpg"},
+]

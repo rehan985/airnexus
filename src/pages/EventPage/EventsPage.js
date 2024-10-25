@@ -52,8 +52,8 @@ export default function EventsPage() {
   return (
     <section className='event-page section-spacing pt-5'>
       <Helmet>
-        <title>Events || AirTech '24</title>
-        <meta name="description" content="Events hosted by Airtech '24" />
+        <title>Events || AirNexus '24</title>
+        <meta name="description" content="Events hosted by AirNexus '24" />
       </Helmet>
       <div className='container mt-32'>
         <div className="section-heading text-center mb-5">

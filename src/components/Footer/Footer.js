@@ -21,14 +21,14 @@ export default function Footer() {
                             </p>
                             <div className="footer-social-links d-flex align-items-center gap-3">
                                 <a
-                                    href="https://www.linkedin.com/company/airtech2024/"
+                                    href="https://www.linkedin.com/company/airnexus2024/"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                 >
                                     <img src="/images/fb.png" width="23px" alt="facebook" />
                                 </a>
                                 <a
-                                    href="https://www.linkedin.com/company/airtech2024/"
+                                    href="https://www.linkedin.com/company/airnexus2024/"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                 >
@@ -145,27 +145,27 @@ export default function Footer() {
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="mailto:Info@airtech.pk">
+                                    <a href="mailto:Info@airnexus.tech">
                                         <img src="/images/email.png" width="17px" alt="email" />
-                                        <span>Info@airtech.pk</span>
+                                        <span>Info@airnexus.tech</span>
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="tel:+923175777584">
+                                    <a href="tel:++923255020720">
                                         <img
                                             src="/images/phone-white.png"
                                             width="17px"
                                             alt="phone"
                                         />
-                                        <span>+92 317 5777584</span>
+                                        <span>+92 325 5020720</span>
                                     </a>
-                                    <a href="tel:+0519153275" className='mt-3'>
+                                    <a href="tel:+923359344822" className='mt-3'>
                                         <img
                                             src="/images/phone-white.png"
                                             width="17px"
                                             alt="phone"
                                         />
-                                        <span>051 9153275</span>
+                                        <span>+92 335 9344822</span>
                                     </a>
                                 </li>
                             </ul>
@@ -180,7 +180,14 @@ export default function Footer() {
                     <a href="https://aubitsnbytes.tech/" >  Air University Bits and Bytes </a>
                     <img src="./images/aubbs.png" width={'29px'} className='d-inline' alt="" />
                 </div>
+                <div className="container d-flex align-items-center justify-content-center">
+                    <span>Powered by</span>
+
+                    <a href="https://cyberoide.tech/" >  Cyberoide Tech </a>
+                    <img src="" width={'29px'} className='d-inline' alt="" />
+                </div>
             </div>
+           
         </>
 
     )

@@ -10,8 +10,8 @@ export default function Contact() {
   return (
     <div className="site-wrapper contact-page">
         <Helmet>
-            <title>Contact Us || AirTech '24</title>
-            <meta name="description" content="Contact Airtech '24 representatives" />
+            <title>Contact Us || AirNexus '24</title>
+            <meta name="description" content="Contact Air Nexus '24 representatives" />
         </Helmet>
         <section className="contact-us-parent section-spacing">
             <div className="contact-us-inner container">
@@ -30,9 +30,9 @@ export default function Contact() {
                         <h5 className="mb-3 text-purple fw-bold">Linkedin Page</h5>
                         <a
                         className="text-gray"
-                        href="https://www.linkedin.com/company/airtech2024/"
+                        href="https://www.linkedin.com/company/airnexus2024/"
                         >
-                        linkedin.com/airtech2024
+                        linkedin.com/airnexus2024
                         </a>
                     </div>
                     <div className="contact-us-highlight-item">
@@ -44,9 +44,9 @@ export default function Contact() {
                         />
                         </div>
                         <h5 className="mb-3 text-purple fw-bold">Call Us</h5>
-                        <a className="text-gray" href="tel:+923175777584">
-                        051 9153275<br />
-                        +92 317 5777584 
+                        <a className="text-gray" href="tel:0335 9344822">
+                        0335 9344822<br />
+                        +92 325 5020720 
                         </a>
                     </div>
                     <div className="contact-us-highlight-item">
@@ -55,7 +55,7 @@ export default function Contact() {
                         </div>
                         <h5 className="mb-3 text-purple fw-bold">Email</h5>
                         <a className="text-gray" href="mailto:Info@airtech.pk">
-                        Info@airtech.pk
+                        Info@airnexus.tech
                         </a>
                     </div>
                     <div className="contact-us-highlight-item">

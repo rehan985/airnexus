@@ -23,7 +23,7 @@ export default function ContactBanner() {
                     <a className="d-flex" href="tel:+923175777584">
                         {" "}
                         <img src="./images/phone-white.png" style={{ width: '25px', height: '25px', objectFit: 'contain' }} alt="" />
-                        +92 317 5777584
+                        +92 325 5020720
                     </a>
                 </div>
                 <img

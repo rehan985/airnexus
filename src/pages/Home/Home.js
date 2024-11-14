@@ -1,10 +1,15 @@
-import React, { useEffect } from 'react';
-import ContactBanner from '../../components/ContactBanner/ContactBanner';
-import StatCards from '../../components/StatCards/StatCards';
-import AOS from 'aos';
-import 'aos/dist/aos.css';
-import { Link } from 'react-router-dom';
-
+import React, { useEffect } from 'react'
+import './Home.css'
+import Slider from 'react-slick'
+import chevronLeft from './../../images/chevron-left.png'
+import chevronRight from './../../images/chevron-right.png'
+// Import css files
+import 'slick-carousel/slick/slick.css'
+import 'slick-carousel/slick/slick-theme.css'
+import ContactBanner from '../../components/ContactBanner/ContactBanner'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
+import { Link } from 'react-router-dom'
 // Event category data with names and icons
 const categories = [
   { name: 'Islamic Competitions', icon: "https://www.shareicon.net/download/2017/05/09/885860_islamic_512x512.png" },
@@ -25,6 +30,51 @@ const categories = [
 ];
 
 export default function Home() {
+  let partnerShipSettings = {
+    autoplay: true,
+    arrows: true,
+    responsive: true,
+    speed: 200,
+    slidesToShow: 5,
+    slidesToScroll: 2,
+    swipeToSlide: true,
+    nextArrow: (
+      <button type="button" className="slick-next">
+        <img src={chevronRight} alt="next arrow" />
+      </button>
+    ),
+    prevArrow: (
+      <button type="button" className="slick-prev">
+        <img src={chevronLeft} alt="prev arrow" />
+      </button>
+    ),
+    responsive: [
+      {
+        breakpoint: 1200,
+        settings: {
+          slidesToShow: 4,
+        },
+      },
+      {
+        breakpoint: 992,
+        settings: {
+          slidesToShow: 3,
+        },
+      },
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 2,
+        },
+      },
+      {
+        breakpoint: 576,
+        settings: {
+          slidesToShow: 1,
+        },
+      },
+    ],
+  }
   useEffect(() => {
     AOS.init({ once: true });
   }, []);
@@ -86,6 +136,43 @@ export default function Home() {
           </div>
         </div>
       </section>
+      <section className="services section-spacing pt-5">
+  <div className="services-inner container">
+    <div className="section-heading text-center">
+      <h6>Our Partnerships</h6>
+      <h1>Corporate Partnerships</h1>
+    </div>
+    <div className="services-slider mt-5">
+      <Slider {...partnerShipSettings}>
+        <div className="partner-showcase-item">
+          <img src="./images/partner3.png" width="120px" alt="partner" />
+        </div>
+        <div className="partner-showcase-item">
+          <img src="./images/aubbs.png" width="120px" alt="partner" />
+        </div>
+        <div className="partner-showcase-item">
+          <img src="./images/partner2.png" width="120px" alt="partner" />
+        </div>
+        <div className="partner-showcase-item">
+          <img src="./airLogos/airLogo1.png" width="120px" alt="partner" />
+        </div>
+        <div className="partner-showcase-item">
+          <img src="./airLogos/airCsy.png" width="120px" alt="partner" />
+        </div>
+        <div className="partner-showcase-item">
+          <img src="./airLogos/airAusom.png" width="120px" alt="partner" />
+        </div>
+        <div className="partner-showcase-item">
+          <img src="./images/partner1.png" width="120px" alt="partner" />
+        </div>
+        <div className="partner-showcase-item">
+          <img src="./airLogos/airVector.png" width="120px" alt="partner" />
+        </div>
+      </Slider>
+    </div>
+  </div>
+</section>
+
 
       <ContactBanner />
     </div>

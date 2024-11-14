@@ -912,7 +912,8 @@ ul{
 
 /* ----- PARTNERSHIP SHOWCASE START ----- */
 .partnership-showcase{
-    background-color: var(--purple);
+    
+    background-color: #FDF7FA;
     position: relative;
 }
 .partnership-showcase .partnership-showcase-inner .section-heading h6 {

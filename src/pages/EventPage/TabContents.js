@@ -1,18 +1,19 @@
 const competitions = {
+  
   IslamicCompetitions: [
     {
-      title: "Islamic Competitions",
-      Events: ["Naat (Boys & Girls)", "Qirat (Boys & Girls)", "Islamic Calligraphy"],
-      EventDetail: [
+      "title": "Islamic Competitions",
+      "Events": ["Naat (Boys & Girls)", "Qirat (Boys & Girls)", "Islamic Calligraphy"],
+      "EventDetail": [
         {
-          title: "Naat (Boys & Girls)",
-          winner: "7000/-",
-          firstRunner: "3500/-",
-          total: "10500/-",
-          registrationReg: "10/-",
-          earlyBird: "10/-",
-          imgSrc: "https://your-image-url.com/naat.jpg", // Add image specific to this event
-          rules: [
+          "title": "Naat (Boys & Girls)",
+          "winner": "7000/-",
+          "firstRunner": "3500/-",
+          "total": "10500/-",
+          "registrationReg": "1000/-",
+          "earlyBird": "800/-",
+          "imgSrc": "https://your-image-url.com/naat.jpg",
+          "rules": [
             "Time limit for Naat will be 5-7 minutes.",
             "Marks will be deducted if time exceeds the specified limit.",
             "Naat must be prepared in Urdu language.",
@@ -22,16 +23,15 @@ const competitions = {
             "Decision of judges will be final."
           ]
         },
-        
         {
-          title: "Qirat (Boys & Girls)",
-          winner: "1000/-",
-          firstRunner: "1000/-",
-          total: "1000/-",
-          registrationReg: "1000/-",
-          earlyBird: "1000/-",
-          imgSrc: "https://your-image-url.com/qirat.jpg", // Add image specific to this event
-          rules: [
+          "title": "Qirat (Boys & Girls)",
+          "winner": "5000/-",
+          "firstRunner": "3000/-",
+          "total": "8000/-",
+          "registrationReg": "1000/-",
+          "earlyBird": "800/-",
+          "imgSrc": "https://your-image-url.com/qirat.jpg",
+          "rules": [
             "Time limit for Qirat will be 5-7 minutes.",
             "Marks will be deducted if time exceeds the specified limit.",
             "Qirat can be in any style (MISRI or HADAR).",
@@ -43,14 +43,14 @@ const competitions = {
           ]
         },
         {
-          title: "Islamic Calligraphy",
-          winner: "10/-",
-          firstRunner: "10/-",
-          total: "10/-",
-          registrationReg: "10/-",
-          earlyBird: "10/-",
-          imgSrc: "https://your-image-url.com/calligraphy.jpg", // Add image specific to this event
-          rules: [
+          "title": "Islamic Calligraphy",
+          "winner": "7000/-",
+          "firstRunner": "3500/-",
+          "total": "10500/-",
+          "registrationReg": "1000/-",
+          "earlyBird": "800/-",
+          "imgSrc": "https://your-image-url.com/calligraphy.jpg",
+          "rules": [
             "Theme (Arabic script) will be announced at the start of the event.",
             "Participants should prepare the sheet before the start of the competition; no extra time will be given.",
             "Participants will be given 1 hour for the competition.",
@@ -61,70 +61,67 @@ const competitions = {
             "Decision of the judge will be final."
           ]
         }
-        
       ]
     }
   ],
-
   EntrepreneurialActivities: [
     {
-      title: "Entrepreneurial Activities",
-      Events: [
+      "title": "Entrepreneurial Activities",
+      "Events": [
         "Start-Up Championship",
         "Battle Of Brands",
         "Applied Sciences Project Presentation",
         "Computing Project Presentation",
         "Engineering Project Presentation"
       ],
-      EventDetail: [
+      "EventDetail": [
         {
-          title: "Start-Up Championship",
-          winner: "10/-",
-          firstRunner: "10/-",
-          total: "10/-",
-          registrationReg: "10/-",
-          earlyBird: "10/-"
+          "title": "Start-Up Championship",
+          "winner": "15000/-",
+          "firstRunner": "10000/-",
+          "total": "25000/-",
+          "registrationReg": "2500/-",
+          "earlyBird": "2200/-"
         },
         {
-          title: "Battle Of Brands",
-          winner: "10/-",
-          firstRunner: "10/-",
-          total: "10/-",
-          registrationReg: "10/-",
-          earlyBird: "10/-"
+          "title": "Battle Of Brands",
+          "winner": "20000/-",
+          "firstRunner": "15000/-",
+          "total": "35000/-",
+          "registrationReg": "4000/-",
+          "earlyBird": "3500/-"
         },
         {
-          title: "Applied Sciences Project Presentation",
-          winner: "10/-",
-          firstRunner: "10/-",
-          total: "10/-",
-          registrationReg: "10/-",
-          earlyBird: "10/-"
+          "title": "Applied Sciences Project Presentation",
+          "winner": "10000/-",
+          "firstRunner": "5000/-",
+          "total": "15000/-",
+          "registrationReg": "1500/-",
+          "earlyBird": "1200/-"
         },
         {
-          title: "Computing Project Presentation",
-          winner: "10/-",
-          firstRunner: "10/-",
-          total: "10/-",
-          registrationReg: "10/-",
-          earlyBird: "10/-"
+          "title": "Computing Project Presentation",
+          "winner": "10000/-",
+          "firstRunner": "5000/-",
+          "total": "15000/-",
+          "registrationReg": "1500/-",
+          "earlyBird": "1200/-"
         },
         {
-          title: "Engineering Project Presentation",
-          winner: "10/-",
-          firstRunner: "10/-",
-          total: "10/-",
-          registrationReg: "10/-",
-          earlyBird: "10/-"
+          "title": "Engineering Project Presentation",
+          "winner": "10000/-",
+          "firstRunner": "5000/-",
+          "total": "15000/-",
+          "registrationReg": "1500/-",
+          "earlyBird": "1200/-"
         }
       ]
     }
   ],
-
   EGamesCompetitions: [
     {
-      title: "E-Games Competitions",
-      Events: [
+      "title": "E-Games Competitions",
+      "Events": [
         "VALORANT",
         "TEKKEN",
         "COD 4",
@@ -133,71 +130,70 @@ const competitions = {
         "CS GO",
         "Street Fighter"
       ],
-      EventDetail: [
+      "EventDetail": [
         {
-          title: "VALORANT",
-          winner: "10/-",
-          firstRunner: "10/-",
-          total: "10/-",
-          registrationReg: "10/-",
-          earlyBird: "10/-"
+          "title": "VALORANT",
+          "winner": "25000/-",
+          "firstRunner": "15000/-",
+          "total": "40000/-",
+          "registrationReg": "3000/-",
+          "earlyBird": "2500/-"
         },
         {
-          title: "TEKKEN",
-          winner: "10/-",
-          firstRunner: "10/-",
-          total: "10/-",
-          registrationReg: "10/-",
-          earlyBird: "10/-"
+          "title": "TEKKEN",
+          "winner": "20000/-",
+          "firstRunner": "10000/-",
+          "total": "30000/-",
+          "registrationReg": "1500/-",
+          "earlyBird": "1200/-"
         },
         {
-          title: "COD 4",
-          winner: "10/-",
-          firstRunner: "10/-",
-          total: "10/-",
-          registrationReg: "10/-",
-          earlyBird: "10/-"
+          "title": "COD 4",
+          "winner": "25000/-",
+          "firstRunner": "15000/-",
+          "total": "40000/-",
+          "registrationReg": "3000/-",
+          "earlyBird": "2500/-"
         },
         {
-          title: "DOTA",
-          winner: "10/-",
-          firstRunner: "10/-",
-          total: "10/-",
-          registrationReg: "10/-",
-          earlyBird: "10/-"
+          "title": "DOTA",
+          "winner": "20000/-",
+          "firstRunner": "10000/-",
+          "total": "30000/-",
+          "registrationReg": "2500/-",
+          "earlyBird": "2200/-"
         },
         {
-          title: "FIFA",
-          winner: "10/-",
-          firstRunner: "10/-",
-          total: "10/-",
-          registrationReg: "10/-",
-          earlyBird: "10/-"
+          "title": "FIFA",
+          "winner": "15000/-",
+          "firstRunner": "10000/-",
+          "total": "25000/-",
+          "registrationReg": "2000/-",
+          "earlyBird": "1800/-"
         },
         {
-          title: "CS GO",
-          winner: "10/-",
-          firstRunner: "10/-",
-          total: "10/-",
-          registrationReg: "10/-",
-          earlyBird: "10/-"
+          "title": "CS GO",
+          "winner": "25000/-",
+          "firstRunner": "15000/-",
+          "total": "40000/-",
+          "registrationReg": "2000/-",
+          "earlyBird": "1800/-"
         },
         {
-          title: "Street Fighter",
-          winner: "10/-",
-          firstRunner: "10/-",
-          total: "10/-",
-          registrationReg: "10/-",
-          earlyBird: "10/-"
+          "title": "Street Fighter",
+          "winner": "15000/-",
+          "firstRunner": "10000/-",
+          "total": "25000/-",
+          "registrationReg": "2000/-",
+          "earlyBird": "1800/-"
         }
       ]
     }
   ],
-
   LiteraryCompetitions: [
     {
-      title: "Literary Competitions",
-      Events: [
+      "title": "Literary Competitions",
+      "Events": [
         "Baitbazi",
         "Kasauuti",
         "Essay Writing",
@@ -208,87 +204,88 @@ const competitions = {
         "Talk Show Debates",
         "Engineering Debates"
       ],
-      EventDetail: [
+      "EventDetail": [
         {
-          title: "Baitbazi",
-          winner: "10/-",
-          firstRunner: "10/-",
-          total: "10/-",
-          registrationReg: "10/-",
-          earlyBird: "10/-"
+          "title": "Baitbazi",
+          "winner": "7000/-",
+          "firstRunner": "3500/-",
+          "total": "10500/-",
+          "registrationReg": "1000/-",
+          "earlyBird": "800/-"
         },
         {
-          title: "Kasauuti",
-          winner: "10/-",
-          firstRunner: "10/-",
-          total: "10/-",
-          registrationReg: "10/-",
-          earlyBird: "10/-"
+          "title": "Kasauuti",
+          "winner": "7000/-",
+          "firstRunner": "3500/-",
+          "total": "10500/-",
+          "registrationReg": "1000/-",
+          "earlyBird": "800/-"
         },
         {
-          title: "Essay Writing",
-          winner: "10/-",
-          firstRunner: "10/-",
-          total: "10/-",
-          registrationReg: "10/-",
-          earlyBird: "10/-"
+          "title": "Essay Writing",
+          "winner": "7000/-",
+          "firstRunner": "3500/-",
+          "total": "10500/-",
+          "registrationReg": "1000/-",
+          "earlyBird": "800/-"
         },
         {
-          title: "Journal Writing",
-          winner: "10/-",
-          firstRunner: "10/-",
-          total: "10/-",
-          registrationReg: "10/-",
-          earlyBird: "10/-"
+          "title": "Journal Writing",
+          "winner": "7000/-",
+          "firstRunner": "3500/-",
+          "total": "10500/-",
+          "registrationReg": "1000/-",
+          "earlyBird": "800/-"
         },
         {
-          title: "Debates (English and Urdu)",
-          winner: "10/-",
-          firstRunner: "10/-",
-          total: "10/-",
-          registrationReg: "10/-",
-          earlyBird: "10/-"
+          "title": "Debates (English and Urdu)",
+          "winner": "10000/-",
+          "firstRunner": "5000/-",
+          "total": "15000/-",
+          "registrationReg": "1000/-",
+          "earlyBird": "800/-"
         },
         {
-          title: "Parliamentary Debates",
-          winner: "10/-",
-          firstRunner: "10/-",
-          total: "10/-",
-          registrationReg: "10/-",
-          earlyBird: "10/-"
+          "title": "Parliamentary Debates",
+          "winner": "15000/-",
+          "firstRunner": "7500/-",
+          "total": "22500/-",
+          "registrationReg": "1500/-",
+          "earlyBird": "1200/-"
         },
         {
-          title: "Presidential Debates",
-          winner: "10/-",
-          firstRunner: "10/-",
-          total: "10/-",
-          registrationReg: "10/-",
-          earlyBird: "10/-"
+          "title": "Presidential Debates",
+          "winner": "15000/-",
+          "firstRunner": "7500/-",
+          "total": "22500/-",
+          "registrationReg": "1500/-",
+          "earlyBird": "1200/-"
         },
         {
-          title: "Talk Show Debates",
-          winner: "10/-",
-          firstRunner: "10/-",
-          total: "10/-",
-          registrationReg: "10/-",
-          earlyBird: "10/-"
+          "title": "Talk Show Debates",
+          "winner": "15000/-",
+          "firstRunner": "7500/-",
+          "total": "22500/-",
+          "registrationReg": "1500/-",
+          "earlyBird": "1200/-"
         },
         {
-          title: "Engineering Debates",
-          winner: "10/-",
-          firstRunner: "10/-",
-          total: "10/-",
-          registrationReg: "10/-",
-          earlyBird: "10/-"
+          "title": "Engineering Debates",
+          "winner": "15000/-",
+          "firstRunner": "7500/-",
+          "total": "22500/-",
+          "registrationReg": "1500/-",
+          "earlyBird": "1200/-"
         }
       ]
     }
   ],
 
+
   MedigraphyCompetitions: [
     {
-      title: "Medigraphy Competitions",
-      Events: [
+      "title": "Medigraphy Competitions",
+      "Events": [
         "Mobile Photography",
         "Reel Competition",
         "Architecture Photography",
@@ -296,54 +293,54 @@ const competitions = {
         "Nexus Vlog",
         "Short Film / Promo"
       ],
-      EventDetail: [
+      "EventDetail": [
         {
-          title: "Mobile Photography",
-          winner: "10/-",
-          firstRunner: "10/-",
-          total: "10/-",
-          registrationReg: "10/-",
-          earlyBird: "10/-"
+          "title": "Mobile Photography",
+          "winner": "7000/-",
+          "firstRunner": "3500/-",
+          "total": "10500/-",
+          "registrationReg": "1000/-",
+          "earlyBird": "800/-"
         },
         {
-          title: "Reel Competition",
-          winner: "10/-",
-          firstRunner: "10/-",
-          total: "10/-",
-          registrationReg: "10/-",
-          earlyBird: "10/-"
+          "title": "Reel Competition",
+          "winner": "15000/-",
+          "firstRunner": "7500/-",
+          "total": "22500/-",
+          "registrationReg": "1500/-",
+          "earlyBird": "1200/-"
         },
         {
-          title: "Architecture Photography",
-          winner: "10/-",
-          firstRunner: "10/-",
-          total: "10/-",
-          registrationReg: "10/-",
-          earlyBird: "10/-"
+          "title": "Architecture Photography",
+          "winner": "10000/-",
+          "firstRunner": "5000/-",
+          "total": "15000/-",
+          "registrationReg": "1500/-",
+          "earlyBird": "1200/-"
         },
         {
-          title: "Poster Designing",
-          winner: "10/-",
-          firstRunner: "10/-",
-          total: "10/-",
-          registrationReg: "10/-",
-          earlyBird: "10/-"
+          "title": "Poster Designing",
+          "winner": "10000/-",
+          "firstRunner": "5000/-",
+          "total": "15000/-",
+          "registrationReg": "1000/-",
+          "earlyBird": "800/-"
         },
         {
-          title: "Nexus Vlog",
-          winner: "10/-",
-          firstRunner: "10/-",
-          total: "10/-",
-          registrationReg: "10/-",
-          earlyBird: "10/-"
+          "title": "Nexus Vlog",
+          "winner": "10000/-",
+          "firstRunner": "5000/-",
+          "total": "15000/-",
+          "registrationReg": "2000/-",
+          "earlyBird": "1800/-"
         },
         {
-          title: "Short Film / Promo",
-          winner: "10/-",
-          firstRunner: "10/-",
-          total: "10/-",
-          registrationReg: "10/-",
-          earlyBird: "10/-"
+          "title": "Short Film / Promo",
+          "winner": "7000/-",
+          "firstRunner": "3500/-",
+          "total": "10500/-",
+          "registrationReg": "1000/-",
+          "earlyBird": "800/-"
         }
       ]
     }
@@ -351,8 +348,8 @@ const competitions = {
 
   PerformingArtsCompetitions: [
     {
-      title: "Performing Arts Competitions",
-      Events: [
+      "title": "Performing Arts Competitions",
+      "Events": [
         "Dance Solo (Boys Only)",
         "Cultural Dance (Boys & Girls)",
         "Drama",
@@ -367,110 +364,110 @@ const competitions = {
         "Script Writing",
         "Monologue"
       ],
-      EventDetail: [
+      "EventDetail": [
         {
-          title: "Dance Solo (Boys Only)",
-          winner: "10/-",
-          firstRunner: "10/-",
-          total: "10/-",
-          registrationReg: "10/-",
-          earlyBird: "10/-"
+          "title": "Dance Solo (Boys Only)",
+          "winner": "7000/-",
+          "firstRunner": "3500/-",
+          "total": "10500/-",
+          "registrationReg": "1000/-",
+          "earlyBird": "800/-"
         },
         {
-          title: "Cultural Dance (Boys & Girls)",
-          winner: "10/-",
-          firstRunner: "10/-",
-          total: "10/-",
-          registrationReg: "10/-",
-          earlyBird: "10/-"
+          "title": "Cultural Dance (Boys & Girls)",
+          "winner": "15000/-",
+          "firstRunner": "10000/-",
+          "total": "25000/-",
+          "registrationReg": "2500/-",
+          "earlyBird": "2200/-"
         },
         {
-          title: "Drama",
-          winner: "10/-",
-          firstRunner: "10/-",
-          total: "10/-",
-          registrationReg: "10/-",
-          earlyBird: "10/-"
+          "title": "Drama",
+          "winner": "30000/-",
+          "firstRunner": "18000/-",
+          "total": "48000/-",
+          "registrationReg": "1000 per person/-",
+          "earlyBird": "800 per person/-"
         },
         {
-          title: "Mimes",
-          winner: "10/-",
-          firstRunner: "10/-",
-          total: "10/-",
-          registrationReg: "10/-",
-          earlyBird: "10/-"
+          "title": "Mimes",
+          "winner": "15000/-",
+          "firstRunner": "10000/-",
+          "total": "25000/-",
+          "registrationReg": "3000/-",
+          "earlyBird": "2500/-"
         },
         {
-          title: "Painting",
-          winner: "10/-",
-          firstRunner: "10/-",
-          total: "10/-",
-          registrationReg: "10/-",
-          earlyBird: "10/-"
+          "title": "Painting",
+          "winner": "7000/-",
+          "firstRunner": "3500/-",
+          "total": "10500/-",
+          "registrationReg": "1000/-",
+          "earlyBird": "800/-"
         },
         {
-          title: "Sketching",
-          winner: "10/-",
-          firstRunner: "10/-",
-          total: "10/-",
-          registrationReg: "10/-",
-          earlyBird: "10/-"
+          "title": "Sketching",
+          "winner": "7000/-",
+          "firstRunner": "3500/-",
+          "total": "10500/-",
+          "registrationReg": "1000/-",
+          "earlyBird": "800/-"
         },
         {
-          title: "Food Crafting",
-          winner: "10/-",
-          firstRunner: "10/-",
-          total: "10/-",
-          registrationReg: "10/-",
-          earlyBird: "10/-"
+          "title": "Food Crafting",
+          "winner": "7000/-",
+          "firstRunner": "3500/-",
+          "total": "10500/-",
+          "registrationReg": "1000/-",
+          "earlyBird": "800/-"
         },
         {
-          title: "Calligraphy",
-          winner: "10/-",
-          firstRunner: "10/-",
-          total: "10/-",
-          registrationReg: "10/-",
-          earlyBird: "10/-"
+          "title": "Calligraphy",
+          "winner": "10000/-",
+          "firstRunner": "5000/-",
+          "total": "15000/-",
+          "registrationReg": "1000/-",
+          "earlyBird": "800/-"
         },
         {
-          title: "Standup Comedy",
-          winner: "10/-",
-          firstRunner: "10/-",
-          total: "10/-",
-          registrationReg: "10/-",
-          earlyBird: "10/-"
+          "title": "Standup Comedy",
+          "winner": "10000/-",
+          "firstRunner": "5000/-",
+          "total": "15000/-",
+          "registrationReg": "1000/-",
+          "earlyBird": "800/-"
         },
         {
-          title: "Art Exhibition",
-          winner: "10/-",
-          firstRunner: "10/-",
-          total: "10/-",
-          registrationReg: "10/-",
-          earlyBird: "10/-"
+          "title": "Art Exhibition",
+          "winner": "10000/-",
+          "firstRunner": "5000/-",
+          "total": "15000/-",
+          "registrationReg": "1000/-",
+          "earlyBird": "800/-"
         },
         {
-          title: "T-Shirt Painting",
-          winner: "10/-",
-          firstRunner: "10/-",
-          total: "10/-",
-          registrationReg: "10/-",
-          earlyBird: "10/-"
+          "title": "T-Shirt Painting",
+          "winner": "10000/-",
+          "firstRunner": "5000/-",
+          "total": "15000/-",
+          "registrationReg": "1500/-",
+          "earlyBird": "1200/-"
         },
         {
-          title: "Script Writing",
-          winner: "10/-",
-          firstRunner: "10/-",
-          total: "10/-",
-          registrationReg: "10/-",
-          earlyBird: "10/-"
+          "title": "Script Writing",
+          "winner": "7000/-",
+          "firstRunner": "3500/-",
+          "total": "10500/-",
+          "registrationReg": "1000/-",
+          "earlyBird": "800/-"
         },
         {
-          title: "Monologue",
-          winner: "10/-",
-          firstRunner: "10/-",
-          total: "10/-",
-          registrationReg: "10/-",
-          earlyBird: "10/-"
+          "title": "Monologue",
+          "winner": "10000/-",
+          "firstRunner": "5000/-",
+          "total": "15000/-",
+          "registrationReg": "1500/-",
+          "earlyBird": "1200/-"
         }
       ]
     }
@@ -478,36 +475,32 @@ const competitions = {
 
   MentalWellbeingActivities: [
     {
-      title: "Mental Wellbeing Activities",
-      Events: [
-        "Yoga",
-        "Drum Circle",
-        "Pet Show"
-      ],
-      EventDetail: [
+      "title": "Mental Wellbeing Activities",
+      "Events": ["Yoga", "Drum Circle", "Pet Show"],
+      "EventDetail": [
         {
-          title: "Yoga",
-          winner: "10/-",
-          firstRunner: "10/-",
-          total: "10/-",
-          registrationReg: "10/-",
-          earlyBird: "10/-"
+          "title": "Yoga",
+          "winner": "7000/-",
+          "firstRunner": "3500/-",
+          "total": "10500/-",
+          "registrationReg": "1000/-",
+          "earlyBird": "800/-"
         },
         {
-          title: "Drum Circle",
-          winner: "10/-",
-          firstRunner: "10/-",
-          total: "10/-",
-          registrationReg: "10/-",
-          earlyBird: "10/-"
+          "title": "Drum Circle",
+          "winner": "7000/-",
+          "firstRunner": "3500/-",
+          "total": "10500/-",
+          "registrationReg": "1000/-",
+          "earlyBird": "800/-"
         },
         {
-          title: "Pet Show",
-          winner: "10/-",
-          firstRunner: "10/-",
-          total: "10/-",
-          registrationReg: "10/-",
-          earlyBird: "10/-"
+          "title": "Pet Show",
+          "winner": "7000/-",
+          "firstRunner": "3500/-",
+          "total": "10500/-",
+          "registrationReg": "1000/-",
+          "earlyBird": "800/-"
         }
       ]
     }
@@ -515,36 +508,36 @@ const competitions = {
 
   MusicalCompetitions: [
     {
-      title: "Musical Competitions",
-      Events: [
-        "Battle of bands",
+      "title": "Musical Competitions",
+      "Events": [
+        "Battle of Bands",
         "Rap Battle",
         "Singing Competition (Solo)"
       ],
-      EventDetail: [
+      "EventDetail": [
         {
-          title: "Battle of bands",
-          winner: "10/-",
-          firstRunner: "10/-",
-          total: "10/-",
-          registrationReg: "10/-",
-          earlyBird: "10/-"
+          "title": "Battle of Bands",
+          "winner": "20000/-",
+          "firstRunner": "10000/-",
+          "total": "30000/-",
+          "registrationReg": "3500/-",
+          "earlyBird": "3000/-"
         },
         {
-          title: "Rap Battle",
-          winner: "10/-",
-          firstRunner: "10/-",
-          total: "10/-",
-          registrationReg: "10/-",
-          earlyBird: "10/-"
+          "title": "Rap Battle",
+          "winner": "10000/-",
+          "firstRunner": "7500/-",
+          "total": "17500/-",
+          "registrationReg": "1500/-",
+          "earlyBird": "1200/-"
         },
         {
-          title: "Singing Competition (Solo)",
-          winner: "10/-",
-          firstRunner: "10/-",
-          total: "10/-",
-          registrationReg: "10/-",
-          earlyBird: "10/-"
+          "title": "Singing Competition (Solo)",
+          "winner": "15000/-",
+          "firstRunner": "7500/-",
+          "total": "22500/-",
+          "registrationReg": "1500/-",
+          "earlyBird": "1200/-"
         }
       ]
     }
@@ -552,54 +545,55 @@ const competitions = {
 
   ITandComputingCompetitions: [
     {
-      title: "IT and Computing Competitions",
-      Events: [
+      "title": "IT and Computing Competitions",
+      "Events": [
         "Code Champs",
         "UX/UI Design Competition",
         "Webathon",
         "Capture The Flag (CTF)"
       ],
-      EventDetail: [
+      "EventDetail": [
         {
-          title: "Code Champs",
-          winner: "10/-",
-          firstRunner: "10/-",
-          total: "10/-",
-          registrationReg: "10/-",
-          earlyBird: "10/-"
+          "title": "Code Champs",
+          "winner": "15000/-",
+          "firstRunner": "7500/-",
+          "total": "22500/-",
+          "registrationReg": "1500/-",
+          "earlyBird": "1200/-"
         },
         {
-          title: "UX/UI Design Competition",
-          winner: "10/-",
-          firstRunner: "10/-",
-          total: "10/-",
-          registrationReg: "10/-",
-          earlyBird: "10/-"
+          "title": "UX/UI Design Competition",
+          "winner": "20000/-",
+          "firstRunner": "10000/-",
+          "total": "30000/-",
+          "registrationReg": "3000/-",
+          "earlyBird": "2500/-"
         },
         {
-          title: "Webathon",
-          winner: "10/-",
-          firstRunner: "10/-",
-          total: "10/-",
-          registrationReg: "10/-",
-          earlyBird: "10/-"
+          "title": "Webathon",
+          "winner": "20000/-",
+          "firstRunner": "10000/-",
+          "total": "30000/-",
+          "registrationReg": "3000/-",
+          "earlyBird": "2500/-"
         },
         {
-          title: "Capture The Flag (CTF)",
-          winner: "10/-",
-          firstRunner: "10/-",
-          total: "10/-",
-          registrationReg: "10/-",
-          earlyBird: "10/-"
+          "title": "Capture The Flag (CTF)",
+          "winner": "5000/-",
+          "firstRunner": "3000/-",
+          "total": "8000/-",
+          "registrationReg": "1000/-",
+          "earlyBird": "800/-"
         }
       ]
     }
   ],
 
+
   OutdoorSportsCompetitions: [
     {
-      title: "Outdoor Sports Competitions",
-      Events: [
+      "title": "Outdoor Sports Competitions",
+      "Events": [
         "Volleyball (Boys & Girls)",
         "Basketball (Boys & Girls)",
         "Cricket (Boys & Girls)",
@@ -609,70 +603,70 @@ const competitions = {
         "Badminton (Boys & Girls)",
         "Futsal (Boys & Girls)"
       ],
-      EventDetail: [
+      "EventDetail": [
         {
-          title: "Volleyball (Boys & Girls)",
-          winner: "10/-",
-          firstRunner: "10/-",
-          total: "10/-",
-          registrationReg: "10/-",
-          earlyBird: "10/-"
+          "title": "Volleyball (Boys & Girls)",
+          "winner": "15000/-",
+          "firstRunner": "7500/-",
+          "total": "22500/-",
+          "registrationReg": "3500/-",
+          "earlyBird": "3000/-"
         },
         {
-          title: "Basketball (Boys & Girls)",
-          winner: "10/-",
-          firstRunner: "10/-",
-          total: "10/-",
-          registrationReg: "10/-",
-          earlyBird: "10/-"
+          "title": "Basketball (Boys & Girls)",
+          "winner": "15000/-",
+          "firstRunner": "7500/-",
+          "total": "22500/-",
+          "registrationReg": "3500/-",
+          "earlyBird": "3000/-"
         },
         {
-          title: "Cricket (Boys & Girls)",
-          winner: "10/-",
-          firstRunner: "10/-",
-          total: "10/-",
-          registrationReg: "10/-",
-          earlyBird: "10/-"
+          "title": "Cricket (Boys & Girls)",
+          "winner": "50000/-",
+          "firstRunner": "25000/-",
+          "total": "75000/-",
+          "registrationReg": "3500/-",
+          "earlyBird": "3000/-"
         },
         {
-          title: "Tug Of War (Boys & Girls)",
-          winner: "10/-",
-          firstRunner: "10/-",
-          total: "10/-",
-          registrationReg: "10/-",
-          earlyBird: "10/-"
+          "title": "Tug Of War (Boys & Girls)",
+          "winner": "10000/-",
+          "firstRunner": "5000/-",
+          "total": "15000/-",
+          "registrationReg": "2500/-",
+          "earlyBird": "2200/-"
         },
         {
-          title: "Wall Climbing (Boys & Girls)",
-          winner: "10/-",
-          firstRunner: "10/-",
-          total: "10/-",
-          registrationReg: "10/-",
-          earlyBird: "10/-"
+          "title": "Wall Climbing (Boys & Girls)",
+          "winner": "10000/-",
+          "firstRunner": "5000/-",
+          "total": "15000/-",
+          "registrationReg": "1500/-",
+          "earlyBird": "1200/-"
         },
         {
-          title: "Archery (Boys & Girls)",
-          winner: "10/-",
-          firstRunner: "10/-",
-          total: "10/-",
-          registrationReg: "10/-",
-          earlyBird: "10/-"
+          "title": "Archery (Boys & Girls)",
+          "winner": "7000/-",
+          "firstRunner": "3500/-",
+          "total": "10500/-",
+          "registrationReg": "1000/-",
+          "earlyBird": "800/-"
         },
         {
-          title: "Badminton (Boys & Girls)",
-          winner: "10/-",
-          firstRunner: "10/-",
-          total: "10/-",
-          registrationReg: "10/-",
-          earlyBird: "10/-"
+          "title": "Badminton (Boys & Girls)",
+          "winner": "10000/-",
+          "firstRunner": "5000/-",
+          "total": "15000/-",
+          "registrationReg": "1000/-",
+          "earlyBird": "800/-"
         },
         {
-          title: "Futsal (Boys & Girls)",
-          winner: "10/-",
-          firstRunner: "10/-",
-          total: "10/-",
-          registrationReg: "10/-",
-          earlyBird: "10/-"
+          "title": "Futsal (Boys & Girls)",
+          "winner": "20000/-",
+          "firstRunner": "10000/-",
+          "total": "30000/-",
+          "registrationReg": "4000/-",
+          "earlyBird": "3500/-"
         }
       ]
     }
@@ -680,81 +674,72 @@ const competitions = {
 
   IndoorSportsCompetitions: [
     {
-      title: "Indoor Sports Competitions",
-      Events: [
+      "title": "Indoor Sports Competitions",
+      "Events": [
         "Table Football (Boys & Girls)",
         "Arm Wrestling (Boys & Girls)",
         "Table Tennis (Boys & Girls)",
         "Snooker (Boys & Girls)",
-        "Bowling (Boys & Girls)",
         "Squash (Boys & Girls)",
         "Ludo",
         "Chess"
       ],
-      EventDetail: [
+      "EventDetail": [
         {
-          title: "Table Football (Boys & Girls)",
-          winner: "10/-",
-          firstRunner: "10/-",
-          total: "10/-",
-          registrationReg: "10/-",
-          earlyBird: "10/-"
+          "title": "Table Football (Boys & Girls)",
+          "winner": "7000/-",
+          "firstRunner": "3500/-",
+          "total": "10500/-",
+          "registrationReg": "1000/-",
+          "earlyBird": "800/-"
         },
         {
-          title: "Arm Wrestling (Boys & Girls)",
-          winner: "10/-",
-          firstRunner: "10/-",
-          total: "10/-",
-          registrationReg: "10/-",
-          earlyBird: "10/-"
+          "title": "Arm Wrestling (Boys & Girls)",
+          "winner": "10000/-",
+          "firstRunner": "5000/-",
+          "total": "15000/-",
+          "registrationReg": "1000/-",
+          "earlyBird": "800/-"
         },
         {
-          title: "Table Tennis (Boys & Girls)",
-          winner: "10/-",
-          firstRunner: "10/-",
-          total: "10/-",
-          registrationReg: "10/-",
-          earlyBird: "10/-"
+          "title": "Table Tennis (Boys & Girls)",
+          "winner": "10000/-",
+          "firstRunner": "5000/-",
+          "total": "15000/-",
+          "registrationReg": "1000/-",
+          "earlyBird": "800/-"
         },
         {
-          title: "Snooker (Boys & Girls)",
-          winner: "10/-",
-          firstRunner: "10/-",
-          total: "10/-",
-          registrationReg: "10/-",
-          earlyBird: "10/-"
+          "title": "Snooker (Boys & Girls)",
+          "winner": "20000/-",
+          "firstRunner": "10000/-",
+          "total": "30000/-",
+          "registrationReg": "1500/-",
+          "earlyBird": "1200/-"
         },
         {
-          title: "Bowling (Boys & Girls)",
-          winner: "10/-",
-          firstRunner: "10/-",
-          total: "10/-",
-          registrationReg: "10/-",
-          earlyBird: "10/-"
+          "title": "Squash (Boys & Girls)",
+          "winner": "15000/-",
+          "firstRunner": "7500/-",
+          "total": "22500/-",
+          "registrationReg": "3000/-",
+          "earlyBird": "2500/-"
         },
         {
-          title: "Squash (Boys & Girls)",
-          winner: "10/-",
-          firstRunner: "10/-",
-          total: "10/-",
-          registrationReg: "10/-",
-          earlyBird: "10/-"
+          "title": "Ludo",
+          "winner": "7000/-",
+          "firstRunner": "3000/-",
+          "total": "10000/-",
+          "registrationReg": "1000/-",
+          "earlyBird": "800/-"
         },
         {
-          title: "Ludo",
-          winner: "10/-",
-          firstRunner: "10/-",
-          total: "10/-",
-          registrationReg: "10/-",
-          earlyBird: "10/-"
-        },
-        {
-          title: "Chess",
-          winner: "10/-",
-          firstRunner: "10/-",
-          total: "10/-",
-          registrationReg: "10/-",
-          earlyBird: "10/-"
+          "title": "Chess",
+          "winner": "7000/-",
+          "firstRunner": "3000/-",
+          "total": "10000/-",
+          "registrationReg": "1000/-",
+          "earlyBird": "800/-"
         }
       ]
     }
@@ -762,8 +747,8 @@ const competitions = {
 
   RoboticCompetitions: [
     {
-      title: "Robotic Competitions",
-      Events: [
+      "title": "Robotic Competitions",
+      "Events": [
         "Speed Wiring",
         "Line Following Robot (LFR)",
         "Off Road Race",
@@ -771,54 +756,54 @@ const competitions = {
         "Obstacle Avoidance",
         "Truss Bridge"
       ],
-      EventDetail: [
+      "EventDetail": [
         {
-          title: "Speed Wiring",
-          winner: "10/-",
-          firstRunner: "10/-",
-          total: "10/-",
-          registrationReg: "10/-",
-          earlyBird: "10/-"
+          "title": "Speed Wiring",
+          "winner": "10000/-",
+          "firstRunner": "5000/-",
+          "total": "15000/-",
+          "registrationReg": "1500/-",
+          "earlyBird": "1200/-"
         },
         {
-          title: "Line Following Robot (LFR)",
-          winner: "10/-",
-          firstRunner: "10/-",
-          total: "10/-",
-          registrationReg: "10/-",
-          earlyBird: "10/-"
+          "title": "Line Following Robot (LFR)",
+          "winner": "15000/-",
+          "firstRunner": "7500/-",
+          "total": "22500/-",
+          "registrationReg": "2000/-",
+          "earlyBird": "1800/-"
         },
         {
-          title: "Off Road Race",
-          winner: "10/-",
-          firstRunner: "10/-",
-          total: "10/-",
-          registrationReg: "10/-",
-          earlyBird: "10/-"
+          "title": "Off Road Race",
+          "winner": "15000/-",
+          "firstRunner": "7500/-",
+          "total": "22500/-",
+          "registrationReg": "1500/-",
+          "earlyBird": "1200/-"
         },
         {
-          title: "Sumo War",
-          winner: "10/-",
-          firstRunner: "10/-",
-          total: "10/-",
-          registrationReg: "10/-",
-          earlyBird: "10/-"
+          "title": "Sumo War",
+          "winner": "10000/-",
+          "firstRunner": "5000/-",
+          "total": "15000/-",
+          "registrationReg": "2500/-",
+          "earlyBird": "2200/-"
         },
         {
-          title: "Obstacle Avoidance",
-          winner: "10/-",
-          firstRunner: "10/-",
-          total: "10/-",
-          registrationReg: "10/-",
-          earlyBird: "10/-"
+          "title": "Obstacle Avoidance",
+          "winner": "15000/-",
+          "firstRunner": "7500/-",
+          "total": "22500/-",
+          "registrationReg": "1500/-",
+          "earlyBird": "1200/-"
         },
         {
-          title: "Truss Bridge",
-          winner: "10/-",
-          firstRunner: "10/-",
-          total: "10/-",
-          registrationReg: "10/-",
-          earlyBird: "10/-"
+          "title": "Truss Bridge",
+          "winner": "15000/-",
+          "firstRunner": "7500/-",
+          "total": "22500/-",
+          "registrationReg": "1500/-",
+          "earlyBird": "1200/-"
         }
       ]
     }
@@ -826,45 +811,45 @@ const competitions = {
 
   SocialEvents: [
     {
-      title: "Social Events",
-      Events: [
+      "title": "Social Events",
+      "Events": [
         "Concert",
         "Qawali Night",
         "Auto Show",
         "Theme Dinner"
       ],
-      EventDetail: [
+      "EventDetail": [
         {
-          title: "Concert",
-          winner: "10/-",
-          firstRunner: "10/-",
-          total: "10/-",
-          registrationReg: "10/-",
-          earlyBird: "10/-"
+          "title": "Concert",
+          "winner": "10000/-",
+          "firstRunner": "5000/-",
+          "total": "15000/-",
+          "registrationReg": "1000/-",
+          "earlyBird": "800/-"
         },
         {
-          title: "Qawali Night",
-          winner: "10/-",
-          firstRunner: "10/-",
-          total: "10/-",
-          registrationReg: "10/-",
-          earlyBird: "10/-"
+          "title": "Qawali Night",
+          "winner": "10000/-",
+          "firstRunner": "5000/-",
+          "total": "15000/-",
+          "registrationReg": "1000/-",
+          "earlyBird": "800/-"
         },
         {
-          title: "Auto Show",
-          winner: "10/-",
-          firstRunner: "10/-",
-          total: "10/-",
-          registrationReg: "10/-",
-          earlyBird: "10/-"
+          "title": "Auto Show",
+          "winner": "10000/-",
+          "firstRunner": "5000/-",
+          "total": "15000/-",
+          "registrationReg": "1000/-",
+          "earlyBird": "800/-"
         },
         {
-          title: "Theme Dinner",
-          winner: "10/-",
-          firstRunner: "10/-",
-          total: "10/-",
-          registrationReg: "10/-",
-          earlyBird: "10/-"
+          "title": "Theme Dinner",
+          "winner": "10000/-",
+          "firstRunner": "5000/-",
+          "total": "15000/-",
+          "registrationReg": "1000/-",
+          "earlyBird": "800/-"
         }
       ]
     }
@@ -872,45 +857,45 @@ const competitions = {
 
   AirNexusJuniorCompetitions: [
     {
-      title: "Air Nexus Junior Competitions",
-      Events: [
+      "title": "Air Nexus Junior Competitions",
+      "Events": [
         "Egg Drop Challenge",
         "Recycling Challenge",
         "Scavenger Hunt",
         "Red Light Green Light"
       ],
-      EventDetail: [
+      "EventDetail": [
         {
-          title: "Egg Drop Challenge",
-          winner: "10/-",
-          firstRunner: "10/-",
-          total: "10/-",
-          registrationReg: "10/-",
-          earlyBird: "10/-"
+          "title": "Egg Drop Challenge",
+          "winner": "10000/-",
+          "firstRunner": "5000/-",
+          "total": "15000/-",
+          "registrationReg": "1000/-",
+          "earlyBird": "800/-"
         },
         {
-          title: "Recycling Challenge",
-          winner: "10/-",
-          firstRunner: "10/-",
-          total: "10/-",
-          registrationReg: "10/-",
-          earlyBird: "10/-"
+          "title": "Recycling Challenge",
+          "winner": "10000/-",
+          "firstRunner": "5000/-",
+          "total": "15000/-",
+          "registrationReg": "2000/-",
+          "earlyBird": "1800/-"
         },
         {
-          title: "Scavenger Hunt",
-          winner: "10/-",
-          firstRunner: "10/-",
-          total: "10/-",
-          registrationReg: "10/-",
-          earlyBird: "10/-"
+          "title": "Scavenger Hunt",
+          "winner": "10000/-",
+          "firstRunner": "5000/-",
+          "total": "15000/-",
+          "registrationReg": "2000/-",
+          "earlyBird": "1800/-"
         },
         {
-          title: "Red Light Green Light",
-          winner: "10/-",
-          firstRunner: "10/-",
-          total: "10/-",
-          registrationReg: "10/-",
-          earlyBird: "10/-"
+          "title": "Red Light Green Light",
+          "winner": "7000/-",
+          "firstRunner": "3000/-",
+          "total": "10000/-",
+          "registrationReg": "1000/-",
+          "earlyBird": "800/-"
         }
       ]
     }
@@ -918,36 +903,36 @@ const competitions = {
 
   PersonalWellbeingCompetitions: [
     {
-      title: "Personal Wellbeing Competitions",
-      Events: [
+      "title": "Personal Wellbeing Competitions",
+      "Events": [
         "Make-Up (Girls Only)",
         "Hairstyling (Girls & Boys)",
         "Nail Painting (Girls Only)"
       ],
-      EventDetail: [
+      "EventDetail": [
         {
-          title: "Make-Up (Girls Only)",
-          winner: "10/-",
-          firstRunner: "10/-",
-          total: "10/-",
-          registrationReg: "10/-",
-          earlyBird: "10/-"
+          "title": "Make-Up (Girls Only)",
+          "winner": "5000/-",
+          "firstRunner": "3000/-",
+          "total": "8000/-",
+          "registrationReg": "1500/-",
+          "earlyBird": "1200/-"
         },
         {
-          title: "Hairstyling (Girls & Boys)",
-          winner: "10/-",
-          firstRunner: "10/-",
-          total: "10/-",
-          registrationReg: "10/-",
-          earlyBird: "10/-"
+          "title": "Hairstyling (Girls & Boys)",
+          "winner": "10000/-",
+          "firstRunner": "5000/-",
+          "total": "15000/-",
+          "registrationReg": "1000/-",
+          "earlyBird": "800/-"
         },
         {
-          title: "Nail Painting (Girls Only)",
-          winner: "10/-",
-          firstRunner: "10/-",
-          total: "10/-",
-          registrationReg: "10/-",
-          earlyBird: "10/-"
+          "title": "Nail Painting (Girls Only)",
+          "winner": "7000/-",
+          "firstRunner": "5000/-",
+          "total": "12000/-",
+          "registrationReg": "1000/-",
+          "earlyBird": "800/-"
         }
       ]
     }
@@ -955,34 +940,36 @@ const competitions = {
 
   QuizCompetitions: [
     {
-      title: "Quiz Competitions",
-      Events: [
+      "title": "Quiz Competitions",
+      "Events": [
         "Physics Quiz Competition",
         "Maths Quiz Competition"
       ],
-      EventDetail: [
+      "EventDetail": [
         {
-          title: "Physics Quiz Competition",
-          winner: "10/-",
-          firstRunner: "10/-",
-          total: "10/-",
-          registrationReg: "10/-",
-          earlyBird: "10/-"
+          "title": "Physics Quiz Competition",
+          "winner": "10000/-",
+          "firstRunner": "7500/-",
+          "total": "17500/-",
+          "registrationReg": "1500/-",
+          "earlyBird": "1200/-"
         },
         {
-          title: "Maths Quiz Competition",
-          winner: "10/-",
-          firstRunner: "10/-",
-          total: "10/-",
-          registrationReg: "10/-",
-          earlyBird: "10/-"
+          "title": "Maths Quiz Competition",
+          "winner": "10000/-",
+          "firstRunner": "5000/-",
+          "total": "15000/-",
+          "registrationReg": "1000/-",
+          "earlyBird": "800/-"
         }
       ]
     }
   ]
+
+
 };
 
 const { IslamicCompetitions, EntrepreneurialActivities, QuizCompetitions, PersonalWellbeingCompetitions, AirNexusJuniorCompetitions, SocialEvents, RoboticCompetitions, IndoorSportsCompetitions, OutdoorSportsCompetitions, ITandComputingCompetitions, MusicalCompetitions, MentalWellbeingActivities, PerformingArtsCompetitions, MedigraphyCompetitions, LiteraryCompetitions, EGamesCompetitions } = competitions
 export {
-  IslamicCompetitions, EntrepreneurialActivities, QuizCompetitions, PersonalWellbeingCompetitions, AirNexusJuniorCompetitions, SocialEvents, RoboticCompetitions, IndoorSportsCompetitions, OutdoorSportsCompetitions, ITandComputingCompetitions, MusicalCompetitions, MentalWellbeingActivities, PerformingArtsCompetitions, MedigraphyCompetitions, LiteraryCompetitions, EGamesCompetitions
+IslamicCompetitions, EntrepreneurialActivities, QuizCompetitions, PersonalWellbeingCompetitions, AirNexusJuniorCompetitions, SocialEvents, RoboticCompetitions, IndoorSportsCompetitions, OutdoorSportsCompetitions, ITandComputingCompetitions, MusicalCompetitions, MentalWellbeingActivities, PerformingArtsCompetitions, MedigraphyCompetitions, LiteraryCompetitions, EGamesCompetitions
 }

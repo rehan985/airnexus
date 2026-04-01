@@ -16,11 +16,12 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
+      - name: Setup Snyk
+        uses: snyk/actions/setup@v3
+
       - name: Run Snyk Code Scan
-        uses: snyk/actions/code@master
+        run: snyk code test \
+          --org=7b9926e9-8b20-4e88-bb07-45670281729b \
+          --severity-threshold=high
         env:
           SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
-        with:
-          args: >
-            --org=7b9926e9-8b20-4e88-bb07-45670281729b
-            --severity-threshold=high

@@ -10,7 +10,7 @@ on:
 
 jobs:
   snyk-code-scan:
-    runs-on: enterprise-runners
+    runs-on: ubuntu-22.04
 
     steps:
       - name: Checkout code

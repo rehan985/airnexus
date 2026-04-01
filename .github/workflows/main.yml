@@ -1,25 +1,11 @@
-name: Snyk Code (SAST Only)
-
-on:
-  push:
-    branches: [main]
-  pull_request:
-    branches: [main]
-
+name: Example workflow using Snyk
+on: push
 jobs:
-  snyk-code-scan:
-    runs-on: ubuntu-22.04
-
+  security:
+    runs-on: ubuntu-latest
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
-
-      - name: Setup Snyk CLI
-        uses: snyk/actions/setup@v3
-
-      - name: Run Snyk Code Scan
-        run: snyk code test \
-          --org=7b9926e9-8b20-4e88-bb07-45670281729b \
-          --severity-threshold=high
+      - uses: actions/checkout@master
+      - name: Run Snyk to check for vulnerabilities
+        uses: snyk/actions/node@master
         env:
           SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}

@@ -1,0 +1,26 @@
+name: Snyk Code (SAST Only)
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  snyk-code-scan:
+    runs-on: enterprise-runners
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Run Snyk Code Scan
+        uses: snyk/actions/code@v1
+        env:
+          SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
+        with:
+          args: >
+            --org=7b9926e9-8b20-4e88-bb07-45670281729b
+            --severity-threshold=high

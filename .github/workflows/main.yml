@@ -2,11 +2,9 @@ name: Snyk Code (SAST Only)
 
 on:
   push:
-    branches:
-      - main
+    branches: [main]
   pull_request:
-    branches:
-      - main
+    branches: [main]
 
 jobs:
   snyk-code-scan:
@@ -16,7 +14,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Setup Snyk
+      - name: Setup Snyk CLI
         uses: snyk/actions/setup@v3
 
       - name: Run Snyk Code Scan
